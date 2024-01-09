@@ -9,6 +9,7 @@ html {
 }
 
 .page {
+  display: flex;
   margin: auto;
   color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
@@ -283,10 +284,6 @@ li::not(:last-child) {
 .content__video-card-thumbnail {
   width: 194px;
   height: 103px;
-}
-
-.preloader-template {
-  position: absolute;
 }
 
 .visually-hidden {
